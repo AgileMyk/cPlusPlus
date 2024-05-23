@@ -1,0 +1,12 @@
+#include <iostream>
+#include <limits>
+
+//basics for robotics programming
+int main() {
+
+int myvariable = 42; //declared variables are immediately stored in memory in C++
+std::cin.clear();
+stdu::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+std::cin.get();
+return 0;
+}
