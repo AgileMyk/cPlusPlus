@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1728690956 source:c:\users\g\c++\cplusplus\practice1\main.cpp
+	<iostream>
+	<limits>
+
+1728690660 source:c:\users\g\c++\cplusplus\practice1\printstandard.cpp
+	<iostream>
+
