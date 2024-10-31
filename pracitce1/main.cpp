@@ -2,8 +2,12 @@
 
 using namespace std;
 
+int minus(int, int);
+
 int main()
 {
     cout << "Hello world!" << endl;
-    return 0;
+    cout << minus(7,3);
+    return minus(7,3);
 }
+
