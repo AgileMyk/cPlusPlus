@@ -1,13 +1,13 @@
 #include <iostream>
 
-using namespace std;
 
-int minus(int, int);
+int minus(int a, int b) {
+    return a - b;
+};
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    cout << minus(7,3);
-    return minus(7,3);
+    std::cout << "Hello world!" << std::endl;
+    std::cout << minus(7,3) + '\n';
 }
 

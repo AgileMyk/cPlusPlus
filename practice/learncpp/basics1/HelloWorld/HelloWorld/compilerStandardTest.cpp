@@ -24,36 +24,3 @@ long getCPPStandard()
 #endif
 }
 
-int main()
-{
-    long standard = getCPPStandard();
-
-    if (standard == -1)
-    {
-        std::cout << "Error: Unable to determine your language standard.  Sorry.\n";
-        return 0;
-    }
-
-    for (int i = 0; i < numStandards; ++i)
-    {
-        // If the reported version is one of the finalized standard codes
-        // then we know exactly what version the compiler is running
-        if (standard == stdCode[i])
-        {
-            std::cout << "Your compiler is using " << stdName[i]
-                << " (language standard code " << standard << "L)\n";
-            break;
-        }
-
-        // If the reported version is between two finalized standard codes,
-        // this must be a preview / experimental support for the next upcoming version.
-        if (standard < stdCode[i])
-        {
-            std::cout << "Your compiler is using a preview/pre-release of " << stdName[i]
-                << " (language standard code " << standard << "L)\n";
-            break;
-        }
-    }
-
-    return 0;
-}
