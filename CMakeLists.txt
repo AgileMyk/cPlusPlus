@@ -5,8 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(cPlusPlus
     pracitce1/main.cpp
-    practice/learncpp/basics1/HelloWorld/HelloWorld/compilerStandardTest.cpp
-    practice/learncpp/basics1/HelloWorld/HelloWorld.cpp
+        practice/learncpp/basics1/HelloWorld/HelloWorld.cpp
     practice1/main.cpp
     practice1/PrintStandard.cpp
         pracitce1/minus.cpp
